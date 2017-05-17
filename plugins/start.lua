@@ -6,7 +6,7 @@ local function do_keyboard_robot()
     					},
     					{
     		    		{text = '💶خرید گروه💶', callback_data = '!buygroup'},
-    		    		{text = '👥پشتیبانی👥', url = 'https://telegram.me/joinchat/DdQheD8b55zB0jtgDQJWDw'},
+    		    		{text = '👥پشتیبانی👥', url = 'https://telegram.me/morteza1615'},
 	    },
 	    {
 	    {text = '💚صفحه قبلی💚', callback_data = '!home'}
@@ -18,7 +18,7 @@ local function do_keyboard_buygroup()
     local keyboard = {}
     keyboard.inline_keyboard = {
 {
-    		    		{text = '👤برای خرید  کلیک کنید👤', url = 'https://telegram.me/joinchat/DdQheD8b55zB0jtgDQJWDw'},
+    		    		{text = '👤برای خرید  کلیک کنید👤', url = 'https://telegram.me/morteza1615'},
 	    },
 	    {
 	    {text = '💚صفحه قبلی💚', callback_data = '!robot'}
@@ -108,7 +108,7 @@ if query == 'home' then
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
         if query == 'share' then
-     api.sendContact(msg.from.id, '+639201472670', 'Tele Surena')
+     api.sendContact(msg.from.id, '+79055532775', 'Tele Surena')
 end
     end
 
