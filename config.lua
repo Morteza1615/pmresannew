@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '302851823:AAHsxCVT1JnQgMflRd3h0R5TS-e2RmF1oXs',
+	bot_api_key = '379039211:AAH8ydXXQVIaHmgph_B7WWj3zKEFiIIT8xs',
 	admin = 191128096,
 	channel = '@Contributive', --channel username with the '@'
 
